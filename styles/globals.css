@@ -1,16 +1,130 @@
 html,
 body {
-  padding: 0;
+  padding: 12px;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
+  font-family: "Press Start 2P", cursive;
+  background-color: #080606;
+  color: rgb(179, 179, 179);
 }
 
 * {
   box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.green {
+  /* color: rgb(210, 59, 230); */
+  color: rgb(78, 224, 64);
+}
+
+.white {
+  color: white;
+}
+
+.WaitingForVrf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 19px;
+  padding: 30px 100px;
+  line-height: 30px;
+  word-spacing: -8px;
+}
+
+.WaitingForVrf a {
+  color: rgb(78, 224, 64);
+}
+
+.WaitingForVrf a:hover {
+  color: pink;
+  text-decoration: underline;
+}
+
+.disconnect {
+  color: rgb(78, 224, 64);
+  background-color: rgb(255, 255, 255);
+  padding: 15px 24px;
+  font-family: "Press Start 2P", cursive;
+  border-radius: 9px;
+  font-size: 20px;
+}
+
+.introWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 40px;
+}
+
+.introWrapper h1 {
+  color: rgb(78, 224, 64);
+  font-size: 50px;
+  text-align: center;
+}
+
+.introWrapper p {
+  font-size: 20px;
+  text-align: center;
+  line-height: 25px;
+  letter-spacing: -1px;
+}
+
+.balance {
+  color: rgb(41, 218, 35);
+  font-size: 20px;
+  text-align: center;
+}
+
+.introWrapper button {
+  color: rgb(29, 168, 16);
+  font-weight: 900;
+  background-color: white;
+  padding: 10px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 20px;
+}
+
+.introWrapper input {
+  background-color: #0e0d0d;
+  border: none;
+  border-radius: 8px;
+  width: 160px;
+  height: 50px;
+  outline: none;
+  font-size: 20px;
+  color: white;
+  font-family: "Press Start 2P", cursive;
+  padding: 20px;
+}
+
+.play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recentWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.recentPlayers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.recentText {
+  font-size: 24px;
 }
